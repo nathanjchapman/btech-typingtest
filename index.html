@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>JS Typing Speed Test</title>
+    <script defer src="scripts/index.js">
+    </script>
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section>
+            <h1>Test Your Typing Speed</h1>
+            <p>This is a typing test. Your goal is to duplicate the provided text, EXACTLY, in the field below. The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!</p>
+        </section>
+    </header>
+    <main>
+        <section class="test-area">
+            <div>
+                <pre>
+                    <code id="origin-text">letten let rette ree lettle neerine trentine lier tren entre neerine tell neer eletter reler ine ener ine net nient tree</code>
+                </pre>
+            </div>
+            <div>
+                <textarea id="test-area" class="test-input" name="textarea" placeholder="The clock starts when you start typing." rows="6"></textarea>
+            </div>
+            <div class="meta">
+                <div id="clock">
+                    <span class="timer">
+                        00:00:00
+                    </span>
+                </div>
+                <button id="reset">Start over</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
